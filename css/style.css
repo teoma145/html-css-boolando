@@ -1,0 +1,44 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --bg-color:#C45507;
+    --footer-color:#1B1B1B;
+    --primary-color:#ffffff;
+}
+.backgroundcolor{
+    background-color: var(--bg-color);
+}
+.debug{
+    border: 1px solid black;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    
+}
+.flex{
+    display: flex;
+}
+.justify-space{
+    justify-content: space-between;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    width: 40%;
+}
+
+
+.nav{
+    padding: 40px;
+}
+ul{
+    list-style-type: none;
+}
+li{
+    padding: 15px;
+    color: white;
+}
