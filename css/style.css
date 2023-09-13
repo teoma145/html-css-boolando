@@ -11,8 +11,12 @@
 .backgroundcolor{
     background-color: var(--bg-color);
 }
-.debug{
+/*.debug{
     border: 1px solid black;
+}*/
+header{
+    position: fixed;
+    z-index: 1000;
 }
 .container{
     width: 1200px;
@@ -23,6 +27,8 @@
     display: flex;
     flex-flow: row wrap;
 }
+
+
 .justify-space{
     justify-content: space-between;
 }
@@ -51,9 +57,10 @@ img{
     
 }
 .size{
-   width: calc(100% / 3);
-   min-width: 150px;
+   width: calc(100% / 3 );
    position: relative;
+   padding: 80px 10px;
+   
 
 }
 .padding{
@@ -72,8 +79,8 @@ h3{
     background-color: red;
     width: 40px;
     position: absolute;
-    bottom: 50px;
-    left: 0px;
+    bottom: 130px;
+    left: 10px;
     padding: 5px 2px;
     
 }
@@ -83,14 +90,14 @@ h3{
     width: 80px;
     padding: 5px 2px;
     position: absolute;
-    bottom: 50px;
-    left: 42px;
+    bottom: 130px;
+    left: 52px;
 }
 .heart{
     position: absolute;
     background-color:white;
-    top: 20px;
-    right: 0px;
+    top: 90px;
+    right: 10px;
     padding: 10px;
     font-size: 1.2em;
 
@@ -99,13 +106,13 @@ h3{
     color: red;
 }
 .left0{
-    left: 0;
+    left: 10px;
 }
 .appear{
     display: none;
     position: absolute;
     top: 0;
-    left: 0;
+    left: 0; padding: 80px 10px;
 }
 .img1:hover .appear{
     display: block;
@@ -113,6 +120,13 @@ h3{
 .disappear:hover{
     display: none;
 }
+.position{
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    z-index: 1000;
+}
+
 
 
 
