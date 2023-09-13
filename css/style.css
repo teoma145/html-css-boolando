@@ -95,6 +95,24 @@ h3{
     font-size: 1.2em;
 
 }
+.heart:hover{
+    color: red;
+}
+.left0{
+    left: 0;
+}
+.appear{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.img1:hover .appear{
+    display: block;
+}
+.disappear:hover{
+    display: none;
+}
 
 
 
