@@ -11,9 +11,9 @@
 .backgroundcolor{
     background-color: var(--bg-color);
 }
-/*.debug{
+.debug{
     border: 1px solid black;
-}*/
+}
 header{
     position: fixed;
     z-index: 1000;
@@ -59,12 +59,12 @@ img{
 .size{
    width: calc(100% / 3 );
    position: relative;
-   padding: 80px 10px;
+   padding: 40px 10px;
    
 
 }
 .padding{
-    padding: 40px 0px;
+    padding: 30px 0px;
 }
 .footercolor{
     background-color: var(--footer-color);
@@ -81,23 +81,24 @@ h3{
     position: absolute;
     bottom: 130px;
     left: 10px;
-    padding: 5px 2px;
+    padding: 5px;
+    
     
 }
 .sostenibilità{
     color:white;
     background-color: green;
-    width: 80px;
-    padding: 5px 2px;
+    width: 90px;
     position: absolute;
     bottom: 130px;
     left: 52px;
+    padding: 5px;
 }
 .heart{
     position: absolute;
     background-color:white;
-    top: 90px;
-    right: 10px;
+    top: 60px;
+    right: 12px;
     padding: 10px;
     font-size: 1.2em;
 
@@ -112,7 +113,8 @@ h3{
     display: none;
     position: absolute;
     top: 0;
-    left: 0; padding: 80px 10px;
+    left: 0; 
+    padding: 40px 10px;
 }
 .img1:hover .appear{
     display: block;
