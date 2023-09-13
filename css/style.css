@@ -21,6 +21,7 @@
 }
 .flex{
     display: flex;
+    flex-flow: row wrap;
 }
 .justify-space{
     justify-content: space-between;
@@ -73,15 +74,27 @@ h3{
     position: absolute;
     bottom: 50px;
     left: 0px;
+    padding: 5px 2px;
+    
 }
 .sostenibilità{
     color:white;
     background-color: green;
     width: 80px;
-    padding: 0px 4px;
+    padding: 5px 2px;
     position: absolute;
     bottom: 50px;
     left: 42px;
 }
+.heart{
+    position: absolute;
+    background-color:white;
+    top: 20px;
+    right: 0px;
+    padding: 10px;
+    font-size: 1.2em;
+
+}
+
 
 
