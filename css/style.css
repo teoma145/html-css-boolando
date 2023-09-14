@@ -11,15 +11,12 @@
 .backgroundcolor{
     background-color: var(--bg-color);
 }
-.debug{
+/*.debug{
     border: 1px solid black;
-}
-header{
-    position: fixed;
-    z-index: 1000;
-}
+}*/
+
 .container{
-    width: 1200px;
+    max-width: 1200px;
     margin: 0 auto;
     
 }
@@ -33,15 +30,15 @@ header{
     justify-content: space-between;
 }
 .logo{
-    display: flex;
-    justify-content: center;
-    width: 40%;
+    
+    width: 170px;
+    
 }
 ul{
     list-style-type: none;
 }
 li{
-    padding: 15px;
+    padding: 12px;
     color: white;
     font-size: 0.8em;
     font-weight: bold;
@@ -77,7 +74,6 @@ h3{
 .discount1{
     color:white;
     background-color: red;
-    width: 40px;
     position: absolute;
     bottom: 130px;
     left: 10px;
@@ -88,7 +84,6 @@ h3{
 .sostenibilità{
     color:white;
     background-color: green;
-    width: 90px;
     position: absolute;
     bottom: 130px;
     left: 52px;
@@ -127,6 +122,10 @@ h3{
     width: 100%;
     height: 50px;
     z-index: 1000;
+    box-shadow: 0 2px 3px #666;
+}
+.nowrap{
+    flex-wrap: nowrap;
 }
 
 
